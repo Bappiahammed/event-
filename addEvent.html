@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1 id="headin">hello Event lesinner</h1>
+  <button id="btn">Click me for bg collor red </button>
+  <script>
+    var headin = document.getElementById('heading');
+    var button = document.getElementById('btn');
+    button.addEventListener('click', function (){
+      headin.setAttribute('class', 'this is claas attribute')
+    })
+  </script>
+</body>
+</html>
